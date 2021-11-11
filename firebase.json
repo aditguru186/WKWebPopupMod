@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "source",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/homeForm.html"
+      }
+    ]
+  }
+}
